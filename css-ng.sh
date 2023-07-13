@@ -116,7 +116,7 @@ _checkFiles() {
 
   .verbose 6 "Checking if $_OUTPUT exists"
   if [ ! -d $_OUTPUT ]; then 
-    .verbose 3 "$_OUTPUT does not exist. Creating..."
+    .verbose 6 "$_OUTPUT does not exist. Creating..."
     mkdir -p $_OUTPUT
   fi
 }
