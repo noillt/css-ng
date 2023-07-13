@@ -1,4 +1,4 @@
-# Counter-Strike: Source .nav Generator
+# Counter-Strike: Source empty .nav generator
 
 There is an issue where if you download a mappack and it only has `.bsp` map files and no `.nav` files - the server on first launch will try and generate the navigation meshes for all maps on the server.
 
@@ -15,6 +15,16 @@ cd css-ng
 ```
 
 ```
+   ____   ______ ______           ____    ____  
+ _/ ___\ /  ___//  ___/  ______  /    \  / ___\ 
+ \  \___ \___ \ \___ \  /_____/ |   |  \/ /_/  >
+  \___  >____  >____  >         |___|  /\___  / 
+      \/     \/     \/               \//_____/  
+  2023 • Deividas Gedgaudas • github.com/Sidicer
+
+This tool is used to generate "empty" navigation meshes
+for all the maps inside provided directory
+
 Usage:
   ./css-ng.sh [<arguments>]
   ./css-ng.sh -h | Show this screen
@@ -30,5 +40,4 @@ Example:
   ./css-ng.sh - when used without any parameters tool looks for .bsp
                 files in the same directory where css-ng.sh is located
                 and generates .nav files in the same directory
-
 ```
