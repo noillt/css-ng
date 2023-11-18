@@ -20,7 +20,7 @@ cd css-ng
  \  \___ \___ \ \___ \  /_____/ |   |  \/ /_/  >
   \___  >____  >____  >         |___|  /\___  / 
       \/     \/     \/               \//_____/  
-  2023 • Deividas Gedgaudas • github.com/Sidicer
+  2023 • noil.lt • github.com/noillt
 
 This tool is used to generate "empty" navigation meshes
 for all the maps inside provided directory
